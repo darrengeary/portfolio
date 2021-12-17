@@ -35,14 +35,15 @@ export const projects = [
 
 export const education = [
   {
-    coursework: "Angular front-end and Spring back-end website displaying real time Covid-19 case statistics by graphing cases relevant to age, gender, severity for countries worldwide but specifically focused on Irish cases e.g. How many Covid cases are currently being treated in ICU.",   image: "../nuig.png",
+    coursework: "Angular front-end and Spring back-end website displaying real time Covid-19 case statistics by graphing cases relevant to age, gender, severity for countries worldwide but specifically focused on Irish cases e.g. How many Covid cases are currently being treated in ICU.",   
+    image: "./nuig.png",
     degree: "Higher Diploma of Applied Science",
     course: "Software Design and Development",
     institution: "National University of Ireland, Galway",
   },
   {
     coursework: "Development of a web application to functionally evaluate the level of a user’s cognitive ability. The assessment would determine over time whether an early onset of cognitive decline such as Alzheimer's or Dementia may exist.",    
-    image: "../nuig.png",
+    image: "./nuig.png",
     degree: "Bachelor of Arts",
     course: "Information Technology and Geography",
     institution: "National University of Ireland, Galway",
@@ -79,7 +80,7 @@ export const experience = [
       { duty: "Training in developing SAP Commerce Solutions."},
     ],
     title: "Support Engineer",
-    image: "../sap.png",
+    image: "./sap.png",
     company: "SAP CoE Dublin",
     years: "2019-2021",
   },
@@ -95,7 +96,7 @@ export const experience = [
       { duty: "Completing transactions and performing sales techniques. "},
       { duty: "Awarded 100% on numerous mystery shopper sales reports."},
     ],
-    image: "../smyths.png",
+    image: "./smyths.png",
     title: "Retail Supervisor",
     company: "Smyths Toys",
     years: "2015-2019",
