@@ -3,6 +3,7 @@ Description=Tomcat 9 servlet container
 After=network.target
 
 [Service]
+SuccessExitStatus=143
 Type=forking
 User=tomcat
 Group=tomcat
