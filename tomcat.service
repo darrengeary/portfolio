@@ -6,7 +6,7 @@ After=network.target
 Type=forking
 User=tomcat
 Group=tomcat
-Environment="JAVA_HOME=<Java/home/path>"
+Environment="JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd6"
 Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom -Djava.awt.headless=true"
 Environment="CATALINA_BASE=/home/tomcat/new"
 Environment="CATALINA_HOME=/home/tomcat/new"
