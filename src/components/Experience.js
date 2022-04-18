@@ -43,11 +43,11 @@ export default function Experience() {
                 </span>
                 </div>
                 </div>
-                <div className="mt-4 text-left inline-block">
+                <div className="mt-4 text-left">
                   {thisExperience.duties.map(data => (
-                    <div className="text-gray-900 leading-relaxed inline-flex">
-                      <p className=""><ClipboardCheckIcon className="w-4 h-4 mt-1.5 mr-4" /></p>
-                      <p>{data.duty}<br/></p>
+                    <div className="w-full text-gray-900 leading-relaxed inline-flex">
+                      <p><ClipboardCheckIcon className="w-4 h-4 mt-1.5 mr-4" /></p>
+                      <p>{data.duty}</p>
                     </div>
                   ))}
                 </div>
