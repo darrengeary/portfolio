@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+svg {
+  display: inline-flex !important;
+}
+
+.textWhite {
+  color: white;
+}
+
+.footer-bg {
+  background-color: #282c34;
+}
