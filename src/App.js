@@ -12,10 +12,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Public />}></Route>
-      </Routes>
+    <BrowserRouter basename='/index.html'>
+      <Public />
     </BrowserRouter>
   )
 }
