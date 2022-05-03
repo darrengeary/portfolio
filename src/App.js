@@ -8,14 +8,8 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Education from "./components/Education"
 
-import { Routes, Route, BrowserRouter } from "react-router-dom"
-
 export default function App() {
-  return (
-    <BrowserRouter basename='/index.html'>
-      <Public />
-    </BrowserRouter>
-  )
+  return <Public />
 }
 
 function Public() {
